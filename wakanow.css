@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f4f7;;
+}
+.all{
+    background-image: url(images/Hero_Banner_2026.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.nav-bar{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.li-1{
+    margin-left: 20px;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    color: white;
+    align-items: center;
+}
+.logo{
+   display: flex;
+}
+.img-1{
+    width:100px;
+}
+.btn-1{
+    border: none;
+    background-color: deepskyblue;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+}
+.svg-1{
+    background-color: deepskyblue;
+    border-radius: 30px;
+}
+.h6{
+    margin-left: 30px;
+    font-size: 12px;
+}
+.p-1{
+    margin-left: 50px;
+}
+.p-2{
+    margin-left: 30px;
+}
+.modes{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px;
+    gap: 50px;
+    background: white;
+    margin-left: 200px;
+    margin-right: 250px;
+    border-radius: 10px;
+}
+.mini-modes{
+    background: white;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-bottom: 50px; */
+    border-radius: 12px;
+    width: 80%;
+    margin: 50px auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-top: -20px;
+}
+.radio{
+    gap: 30px;
+}
+.row{
+    display: flex;
+    /* gap: 15px; */
+    flex-wrap: wrap;
+}
+.field{
+    flex: 1;
+    /* display: flex; */
+    /* flex-direction: column; */
+    padding: 15px;
+    border-right: 1px solid #eee;
+}
+.field label{
+    font-size: 12px;
+    color: #777;
+    /* margin-bottom: 5px; */
+}
+.field,
+.field select{
+    padding: 12px;
+    /* border-radius: 8px; */
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+.field input:focus,
+.field select:focus{
+    outline: none;
+    border-color: #007bff;
+}
+.flex-option{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+    padding-bottom: 20px;
+}
+.btn-search{
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    margin-left: 500px;
+    /* margin-bottom: 40px; */
+    margin-top:-30px;
+}
+.next-level{
+    display: flex;
+    gap: 30px;
+    border-radius: 10px;
+    /* background-color: red; */
+    justify-content:space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: -10px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin-top: -60px;
+}
+.holiday-escape{
+    display: flex;
+    border-right: 1px solid grey;
+    padding-right: 20px;
+}
+.pay-small{
+    display: flex;
+    border-right: 1px solid grey;
+    padding-right: 20px;
+}
+.travel-guide{
+    display: flex;
+}
+.holiday-content p{
+    font-size: 11px;
+}
+.pay-content p{
+    font-size: 11px;
+}
+.travel-content{
+    font-size: 11px;
+}
+.scan-text{
+    font-size: 20px;
+}
+.scan{
+   display: flex;
+   gap: 300px;
+   padding: 30px;
+   justify-content: space-between;
+   background-color: #f1f4f7;;
+}
+.btn-scan{
+    background-color: orange;
+    padding: 10px;
+    color: white;
+    border: none;
+    width: 200px;
+    border-radius: 10px;
+}
+.great{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    /* background-color: red; */
+    margin: 20px;
+    gap: 40px;
+}
+.great-text{
+    font-size: 20px;
+}
+.booking{
+    padding: 30px;
+    line-height: 20px;
+    background-color: #f1f4f7;;
+}
+.cheap-flights{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: #f1f4f7;;
+}
+.african-ul{
+    list-style-type: none;
+}
+.european-ul{
+    list-style-type: none;
+}
+.asian-ul{
+    list-style-type: none;
+}
+.north-ul{
+    list-style-type: none;
+}
+.cheap-hotels{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: #f1f4f7;;
+}
+.international-airlines{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border-bottom: 2px dashed black;
+    background-color: #f1f4f7;;
+}
+.exclusive{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: #f1f4f7;;
+}
+.footer{
+    display: flex;
+    background-color: #263238;
+    color: white;
+    gap: 70px;
+    padding: 30px;
+    font-size: 20px;
+    line-height: 50px;
+    border-bottom: 2px dashed black;
+}
+.last{
+    background-color:  #263238;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.facebook:hover{
+    color: #007bff;
+}
